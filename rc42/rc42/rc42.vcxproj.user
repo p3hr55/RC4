@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>1 "33 44 55 22 77" "this is the message i want to encrypt"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>0 "11 22 33 44 55" "\x77\xf8\xc3\xc9\x9f\x7f\x03\x8c\x75\x43\x55\xd2\xde\x3c\xb0\x36\x8c\x55\xd7\xe8\xb0\x8f\xb3\xdf\x08\xe5\xed\xba\x86\xef\x39\x36\x46\x31\x4d\xc3\x76\xd7\xfe\xb9"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

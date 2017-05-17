@@ -1,0 +1,8 @@
+﻿  rc4.c
+c:\users\brandon\desktop\rc42\rc42\rc4.c(43): warning C4018: '<': signed/unsigned mismatch
+c:\users\brandon\desktop\rc42\rc42\rc4.c(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\brandon\desktop\rc42\rc42\rc4.c(114): warning C4018: '<': signed/unsigned mismatch
+c:\users\brandon\desktop\rc42\rc42\rc4.c(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\brandon\desktop\rc42\rc42\rc4.c(115): warning C4477: 'sscanf' : format string '%02X' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'char *'
+  c:\users\brandon\desktop\rc42\rc42\rc4.c(115): note: consider using '%hhX' in the format string
+  rc42.vcxproj -> C:\Users\Brandon\Desktop\rc42\Debug\p3_rc4.exe
